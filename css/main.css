@@ -1,0 +1,154 @@
+body {
+    background-image: url(/images/background.png);
+}
+
+#navbutton{
+    text-decoration: none;
+    color: #107C7C;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;;
+    transition: all .2s;;
+    
+}
+
+#navbutton:hover{
+    font-size: 25px;;
+
+}
+.title{
+    font-family: beon;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;;
+    transition: all 1.5s;;
+}
+.title:hover{
+    color: black;
+    color: #4661EB;
+    
+}
+.mainTitle{
+    font-family: anurati;;
+    font-size: 50px;;
+    margin-top: 30px;;
+    color: black;;
+    transition: all 1.5s;;
+}
+.mainTitle:hover{
+    color: #4661EB;
+}
+.num{
+    font-family: gloss;
+    font-size: 70px;;
+}
+.btn{
+    text-decoration: none;
+    color: #164C82;
+    background-color: #82c4e4;
+    transition: all .4s;
+    padding: 5px 30px;;
+    margin-top: 30px;;
+
+}
+.btn:hover{
+    color: white;;
+    padding: 5px 35px;;
+
+}
+.enrollment{
+    /* padding: 30px 30px;; */
+    margin-top: 10px;;
+    color: black;
+}
+.result{
+    margin-top: 50px;;
+    margin-bottom: 27px;;
+}
+.resultbtn{
+    margin-top: 20px;;
+}
+
+
+.card-body{
+    background-color: #212529;
+	padding: 0px;
+
+}
+.card-text{
+    color:white;
+    font-family: 'Tillium Web', sans-serif;
+    padding: 3px 3px;;
+}
+.card-heading{
+    color:white;
+    font-family: Anurati, sans-serif;
+    font-size: 20px;
+    padding-left: 15px;;
+
+}
+.Enroll{
+    text-decoration: none;
+    color: #164C82;
+    background-color: #82c4e4;
+    transition: all .4s;
+    padding: 5px 30px;;
+    border-radius: 1px;;
+
+}
+.Enroll:hover{
+    color: white;;
+    padding: 5px 35px;;
+
+}
+
+.Info{
+    margin-top: 100px;;
+}
+.logo{
+    opacity: .9;
+    position: relative;
+}
+.title-register{
+    margin-top: 50px;;
+}
+
+@media only screen and (min-width: 600px) {
+    .logo{
+        margin-left: 85px;;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+    #vid{
+        width: 350px;
+        height: 197px;;;
+    }
+    .logo{
+        margin-right: 15px;;
+    }
+    
+}
+@media screen and (min-width: 900px){
+    #vid{
+        width: 1800px;;
+        height: 1013px;;
+    }
+}
+
+
+@font-face {
+    font-family: beon;
+    src: url('../static/beon.ttf');
+}
+@font-face {
+    font-family: anurati;
+    src: url('../static/Anurati-Regular.otf');
+}
+@font-face {
+    font-family: gloss;
+    src: url('../static/Gloss_And_Bloom.ttf');
+}
